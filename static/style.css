@@ -368,3 +368,96 @@ a{
 .serlist ul li a:hover{
     color: gray;
 }
+
+/* contact page */
+
+
+.conbody{
+    height: 90vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+}
+.conbody h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: var(--mainback);
+}
+.conform{
+    display: flex;
+    flex-wrap: wrap;
+    border: .1px solid var(--mainback);
+    box-shadow: 0px 0px 10px 1px var(--mainback);
+    border-radius: 10px;
+}
+.conf-r{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.conf-r h3{
+    text-transform: uppercase;
+    color: var(--mainback);
+}
+.formcon{
+    display: flex;
+    flex-direction: column;
+}
+
+.formcon .confin{
+    margin: 15px;
+    padding: 8px;
+    border-radius: 7px;
+    border: none;
+    border: 1px solid var(--mainback);
+}
+.confin::placeholder{
+    color: var(--secback);
+}
+.conbtn{
+    display: flex;
+
+}
+.formcon button{
+    margin: 10px auto;
+    width: 80px;
+    height: 25px;
+    background-color: var(--mainback);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px gray;
+    color: white;
+}
+.formcon button:hover{
+    background-color: var(--secback);
+}
+.conf-l{
+    display: flex;
+    flex-direction: column;    
+    border-radius: 10px;
+    padding: 30px;
+    width: 25vw;
+    background-color: var(--mainback);
+    color: white;
+}
+.conf-l h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+.conf-l img{
+    width: 30px;
+}
+.itxt{
+    display: flex;
+    margin: 20px 0;
+    line-height: 1.4;
+}
+.itxt p{
+    margin: 0 20px;
+}
