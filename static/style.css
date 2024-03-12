@@ -461,3 +461,218 @@ a{
 .itxt p{
     margin: 0 20px;
 }
+
+/* career and intern */
+
+
+.carsec1{
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./images/carbg.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.car-r{
+    margin-left: 60px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.car-l span{
+    color: var(--mainback);
+}
+.car-l{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.car-l h1{
+    margin: 30px auto;
+    font-size: 3.5em;
+}
+.carqoute{
+    margin-top: 20%;
+}
+.car-l p{
+    margin: 10px;
+    line-height: 2;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 10px;
+    width: 40vw;
+}
+
+.carsec1{
+    
+}
+
+/* Intern form */
+
+.carsec2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    background-image: url('./images/inbg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.intern-l{
+    padding-top: 3%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(--mainback);
+}
+
+.intern-l img{
+    position: relative;
+    width: 400px;
+    left: 40%;
+    transform: translateX(-50%);
+}
+.intern-l p{
+    margin-left: 50px;
+}
+
+.intern-r{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.inform{
+    background: linear-gradient(var(--secback), aqua);
+    padding: 30px;
+    border-radius: 10px;
+}
+.intern-r form{
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+.intern-r form input, .intern-r form select{
+    border: none;
+    border-radius: 5px;
+    margin: 15px auto;
+    padding: 7px;
+    width: 20em;
+    color: var(--mainback);
+}
+
+.intern-r form button{
+    position: relative;
+    width: fit-content;
+    padding: 10px ;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 10px;
+    background-color: var(--secback);
+    color: white;
+}
+
+.intern-r .but{
+    border: none;
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 8px;
+    background: linear-gradient(var(--bg1),var(--bg2));
+    color: white;
+}
+
+.intern-r form input::placeholder{
+    color: var(--mainback);
+}
+.carsec2{
+}
+
+/* Career form */
+
+.carsec3{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.carr-l{
+    flex: 1;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carform{
+    background: linear-gradient( #4b6cb7 0%, #182848 100%);
+    color: white;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carform form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+.carform form input, .carform form select{
+    margin: 10px auto;
+    padding: 8px;
+    width: 20em;
+    border: none;
+    border-radius: 5px;
+}
+
+.carform button{
+    background-color: var(--secback);
+    color: white;
+    position: relative;
+    width: fit-content;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carr-r{
+    display: flex;
+    flex: 1;
+    width: 50%;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+.carr-r h2{
+    color: var(--bg1);
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+    left: 40%;
+    transform: translateX(-50%);
+}
+.carr-r img{
+    margin: 50px;
+    width: 400px;
+}
